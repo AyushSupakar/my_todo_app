@@ -6,9 +6,9 @@
     <title>Cute Aesthetic To-Do App</title>
     <style>
       body {
-        background-color: #fff5f8;
-        font-family: "Comic Sans MS", cursive, sans-serif;
-        color: #444;
+        background-color: #f2f4f6;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: #333;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -19,29 +19,29 @@
       }
 
       h1 {
-        font-size: 3rem;
-        color: #ff89a1;
+        font-size: 2.5rem;
+        color: #556ee6;
         margin-bottom: 1.5rem;
       }
 
       .todo-container {
-        background-color: #ffe0ea;
+        background-color: #ffffff;
         padding: 2rem;
-        border-radius: 1.5rem;
+        border-radius: 1rem;
         width: 90%;
         max-width: 500px;
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
       }
 
       .todo-input {
         width: 100%;
         padding: 1rem;
-        font-size: 1.5rem;
-        border: none;
-        border-radius: 1rem;
+        font-size: 1.4rem;
+        border: 2px solid #dde3ea;
+        border-radius: 0.8rem;
         margin-bottom: 1.5rem;
         outline: none;
-        background-color: #fff9fb;
+        background-color: #f9fafb;
       }
 
       .todo-list {
@@ -50,21 +50,21 @@
       }
 
       .todo-item {
-        background-color: #fff;
+        background-color: #f5f7fa;
         padding: 1rem;
         margin-bottom: 1rem;
-        border-radius: 1rem;
+        border-radius: 0.8rem;
         display: flex;
         align-items: center;
-        font-size: 1.4rem;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        font-size: 1.3rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
       }
 
       .todo-item input[type="checkbox"] {
-        width: 2rem;
-        height: 2rem;
+        width: 1.8rem;
+        height: 1.8rem;
         margin-right: 1rem;
-        accent-color: #ff89a1;
+        accent-color: #556ee6;
       }
 
       .todo-item.completed {
@@ -74,12 +74,12 @@
     </style>
   </head>
   <body>
-    <h1>My Cute To-Do List 💖</h1>
+    <h1>My Aesthetic To-Do List ✍️</h1>
     <div class="todo-container">
       <input
         type="text"
         class="todo-input"
-        placeholder="What’s next on your mind? ✨"
+        placeholder="Add a new task..."
       />
       <ul class="todo-list"></ul>
     </div>
